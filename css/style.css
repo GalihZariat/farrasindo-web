@@ -79,8 +79,7 @@ strong {
     background-image: url(images/cover01.jpg);
     background-size: cover;
     height: 542px;
-    text-align: center;
-    
+    text-align: center; 
 }
 
 .jumbotron .display-4 {
@@ -345,15 +344,18 @@ footer {
   
   /* Facebook */
   .fa-facebook {
+      padding: 10px;
     background: #3B5998;
     color: white;
   }
   
   .fa-instagram {
+      padding: 10px;
     background: #125688;
     color: white; }
  
  .fa-twitter {
+     padding: 10px;
         background: #55ACEE;
         color: white; 
  }
