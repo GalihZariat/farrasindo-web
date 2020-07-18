@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+* {
+    font-family: 'Libre Baskerville', serif;
+}
+/* Navbar */
+.navbar {
+    position: relative;
+    z-index: 1;
+    background-color: #ffaf03;
+    
+}
+.navbar-brand {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+
+
+.nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+    
+}
+
+.navbar-brand, .nav-link {
+    text-shadow: 1px 1px 1px white;
+    
+}
+
+.btn {
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.7);
+}
+
+
+/* Variasi */
+
+.tombol {
+    border-radius: 40px;
+}
+
+strong {
+    color: yellow;
+}
+
+
+
+/* Mobile version */
+
+@media (min-width: 576px) {
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+    .carousel-item {
+        margin-top: 20px;
+        height: 600px;
+    }
+    
+    }
+    .jumbotron {
+        margin-top: -75px;
+    }
+    @media (min-width: 576px) {
+        .carousel-item {
+            margin-top: 20px;
+            height: 100px;
+        }
+        
+    }
+    
+    
+
+ 
+ .nav-link:hover::after {
+     content: '';
+     display: block;
+     border-bottom: 3px solid rgba(0, 0, 0, 0.7);
+     width: 50%;
+     margin: auto;
+     padding-bottom: 5px;
+     margin-bottom: -8px;
+ }
+
+ /* Image-nav */
+
+ .nav-image {
+    display: inline;
+}
+
+
+
+.image01 {
+   width: 50%;
+   height: 50%;
+   max-width: 60px;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+   margin-left: 30px;
+   padding-right: 8px;
+   
+}
+
+.nav-image a {
+    float: left;
+    display: flex;
+    align-items: center; 
+}
+
+.navbar a {
+    color: white;
+    
+}
+
+/* jumotron */
+
+.jumbotron {
+    margin-top: 120px;
+}
+
+/* Footer */
+
+.fa {
+    
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+  .fa:hover {
+    opacity: 2;
+    color: black;
+  }
+  
+  /* Set a specificb color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white; }
+
+.fa-twitter {
+        background: #55ACEE;
+        color: white; } 
+
+        /* Maps-tentang */
+
+        .profile-head a {
+            width: 80%;
+        }
+
+        .image-head {
+            width: 35%;
+            border-radius: 100px;
+            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.7);
+        }
+
+        .container .profile-offcie {
+            
+            display: inline;
+            
+        }

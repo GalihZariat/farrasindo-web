@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo&display=swap');
+
+* {
+    font-family: 'Chivo', sans-serif;
+}
+/* Navbar */
+.navbar {
+    position: relative;
+    z-index: 1;
+    background-color: #ffaf03;
+    
+}
+.navbar-brand {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+
+
+.nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+    
+}
+
+.navbar-brand, .nav-link {
+    text-shadow: 1px 1px 1px white;
+    
+}
+
+.btn {
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.7);
+}
+
+
+/* Variasi */
+
+.tombol {
+    border-radius: 40px;
+}
+
+strong {
+    color: yellow;
+}
+
+
+/* Image-nav */
+
+.nav-image {
+    display: inline;
+}
+
+.image01 {
+   width: 50%;
+   height: 50%;
+   max-width: 60px;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+   margin-left: 30px;
+   padding-right: 8px;
+   
+}
+
+.nav-image a {
+    float: left;
+    display: flex;
+    align-items: center; 
+}
+
+.navbar a {
+    color: white;
+    
+}
+
+/* jumbothron */
+
+.jumbotron {
+    background-image: url(../images/cover01.jpg);
+    background-size: cover;
+    height: 542px;
+    text-align: center; 
+}
+
+.jumbotron .display-4 {
+    color: white;
+    font-size: 31px;
+    margin-top: 150px;
+    text-shadow:1px 1px 1px rgba(0, 0, 0, 0.5);
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+.jumbotron a {
+    border-radius: 40px;
+}
+
+.jumbotron::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(194, 128, 5, 0.5),  rgba(194, 128, 5, 0));
+    position: absolute;
+    bottom: 0;
+
+}
+
+.jumbotron .container {
+    z-index: 1;
+    position: relative;
+}
+
+
+/* info-panel */
+
+.info-panel {
+    margin-top: 100px;
+    text-align: center;
+    border-radius: 16px;
+    background-color: rgba(255, 208, 1, 0.897);
+    box-shadow: 0 3px 20px rgba(248, 248, 245, 0.5);
+    position: relative;
+    z-index: 1;
+    
+    
+}
+
+.info-panel img {
+    margin-top: 20px;
+    width: 40%;
+    height: 100px;
+    margin-right: 15px;
+    size: 100px;
+}
+
+.info-panel h4 {
+    font-size: 30px;
+}
+
+/* Slider */
+
+.image-slide .container {
+   background-color: rgba(255, 208, 1, 0.897);
+   margin-top: 100px;
+}
+.image-slide a {
+   margin-top: 10px;
+   
+   width: 50%;  
+   justify-items: center;
+   height: 200px;
+   
+}
+
+.image-slide h2 {
+   margin-top: 100px;
+   justify-items: center;
+   text-align: center;
+   margin-left: 50px;
+   line-height: 50px;
+   font-size: 20px;
+}
+
+.image-slide p {
+   text-align: center;
+   font-size: 15px;
+}
+
+.image-slide .btn {
+    height: 50px;
+    font-size: 20px;
+    margin-top: 0;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    margin-left: 155px;
+    
+}
+ .carousel-item #image02 {
+     height: 260px;
+ }
+
+
+.slider-bar {
+
+   height: 200px;
+   margin-top: 20px;
+   size: 100px;
+   text-align: center;
+}
+
+.carousel-item {
+   margin-top: 20px;
+   height: 600px;
+}
+
+.carousel-item img {
+   margin-top: -80px;
+   
+}
+
+/* card */
+
+.card-deck .container {
+   background-color:rgba(255, 208, 1, 0.897);
+   padding: 20px;
+}
+
+
+.card-deck {
+   margin-top: 150px;
+   margin-left: 200px;
+   border-radius: 20px;
+   
+}
+
+
+.card-deck p {
+   text-align: center;
+   justify-content: center;
+   padding: 0;
+}
+
+.card {
+   float: left;
+   width: 30%;
+   text-align: center;
+   text-align: center;
+   height: 500px;
+   align-items: center;
+   margin: 5px;
+   position: relative;
+   box-shadow: 0px 15px 5px rgba(0, 0, 0, 0.10);
+   
+}
+
+.card img {
+    height: 200px;
+}
+
+/* Dekstop version */
+
+@media (min-width: 992px) {
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+ 
+ .nav-link:hover::after {
+     content: '';
+     display: block;
+     border-bottom: 3px solid rgba(0, 0, 0, 0.7);
+     width: 50%;
+     margin: auto;
+     padding-bottom: 5px;
+     margin-bottom: -8px;
+ }
+ .jumbotron {
+     height: 676px;
+ }
+
+ .jumbotron .btn {
+     margin-top: 40px;
+     width: 20%;
+ }
+
+ .jumbotron .display-4 {
+     font-size: 62px;
+ }
+
+ .info-panel {
+     margin-top: -100px;
+ }
+ .slider-bar {
+    height: 500px;
+    margin-top: 20px;
+    size: 100px;
+ }
+ .image-slide img {
+    background-color: rgba(255, 208, 1, 0.897);
+    margin-top: 1px;
+    margin-bottom: 200px;
+    height: 500px;
+ }
+ .image-slide .container {
+     height: 670px;
+ }
+ .image-slide a {
+    display: flex;
+    align-items: center;
+    height: -300px;
+    justify-items: center;
+ }
+ .image-slide .btn {
+    margin-left: 300px;
+ }
+ .image-slide h2 {
+     font-size: 30px;
+ }
+ .image-slide p {
+     font-size: 20px;
+ }
+ .image-slide .skra {
+     font-size: 30px;
+     
+ }
+ .card {
+     height: 570px;
+     padding: 10px 10px ;
+     
+ }
+
+ .card img {
+    height: 500px;
+}
+
+}
+
+/* Foooter */
+
+footer {
+    margin-top: 40px;
+ }
+ 
+ footer h2 {
+    font-size: 15px;
+ }
+ 
+ .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+  }
+ 
+  .fa:hover {
+    opacity: 2;
+    color: black;
+  }
+  
+  
+  /* Facebook */
+  .fa-facebook {
+      padding: 10px;
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-instagram {
+      padding: 10px;
+    background: #125688;
+    color: white; }
+ 
+ .fa-twitter {
+     padding: 10px;
+        background: #55ACEE;
+        color: white; 
+ }
