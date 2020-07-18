@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo&display=swap');
 
 * {
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Chivo', sans-serif;
 }
 /* Navbar */
 .navbar {
