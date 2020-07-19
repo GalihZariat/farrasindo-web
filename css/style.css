@@ -77,7 +77,7 @@ strong {
 /* jumbothron */
 
 .jumbotron {
-    background-image: url(images/cover01.jpg);
+    background-image: url(../images/cover01.jpg);
     background-size: cover;
     height: 542px;
     text-align: center; 
