@@ -44,31 +44,16 @@
 
 /* Mobile version */
 
-@media (min-width: 576px) {
-    .nav-link {
-        text-transform: uppercase;
-        margin-right: 30px;
-    }
-    .carousel-item {
-        margin-top: 20px;
-        height: 600px;
-    }
-    
-    }
-    .jumbotron {
-        margin-top: -75px;
-    }
-    @media (min-width: 576px) {
-        .carousel-item {
-            margin-top: 20px;
-            height: 100px;
-        }
-        
-    }
-    
-    
+    @media (min-width: 922px) {
 
- 
+        .jumbotron table {
+            font-size: 30px;
+            width: 100%;
+            margin-bottom: 100px; 
+        }
+            
+        }
+
  .nav-link:hover::after {
      content: '';
      display: block;
@@ -119,8 +104,8 @@
 
 .jumbotron table {
     text-align: center;
-    font-size: 30px;
-    width: 100%;
+    font-size: 20px;
+       
 }
 .jumbotron .pojok {
     text-align: left;
