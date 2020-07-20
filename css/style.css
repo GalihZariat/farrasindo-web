@@ -178,6 +178,14 @@ strong {
     margin-left: 155px;
     
 }
+
+.annouct {
+    margin-right: 200px;
+    text-align: center;
+    justify-content: center;
+}
+
+
  .carousel-item #image02 {
      height: 260px;
  }
