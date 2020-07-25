@@ -184,6 +184,7 @@ strong {
 
 .annouct {
     margin-right: 40px;
+    position: relative;
 }
 
 .annouct .btn {
@@ -345,6 +346,10 @@ strong {
     display: block;
     margin-bottom: auto;
     margin-top: auto;
+}
+
+.annouct .btn {
+    font-size: 30px;
 }
 }
 
