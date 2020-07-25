@@ -51,9 +51,9 @@ strong {
 }
 
 .image01 {
-   width: 50%;
-   height: 50%;
-   max-width: 60px;
+   height: 60px;
+   width: 80%;
+   
    display: flex;
    justify-content: center;
    text-align: center;
@@ -145,7 +145,7 @@ strong {
 .image-slide .container {
    background-color: rgba(255, 208, 1, 0.897);
    margin-top: 100px;
-   height: 330px;
+   height: 360px;
 }
     
 .image-slide a {
